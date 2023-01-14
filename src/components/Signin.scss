@@ -1,0 +1,38 @@
+.LoginForm{
+    height:fit-content;
+    width:600px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.formLogo{
+    padding:40px 0 0 0;
+}
+h2{
+    font-weight: 500;
+    font-size: 26px;
+    width: 340px;
+}
+h4{
+    size: 14px;
+    font-weight: 400;
+    width: 450px;
+    margin-top: 0;
+    color: #545454;
+}
+.formFields > div{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+label{
+    padding-bottom: 10px;
+    color: #545454;
+}
+.select{
+    height:"47px"
+}
